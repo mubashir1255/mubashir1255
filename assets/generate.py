@@ -383,6 +383,26 @@ def footer():
     b.append(lines)
     write("footer.svg", svg(W, H, "".join(b), style, "Thanks for playing! Continue?"))
 
+# ───────────────────────── PLAY button (links to the game) ─────────────────────────
+def play_button():
+    W, H = 640, 96
+    style = """
+.blink{animation:bl 1s steps(1) infinite}@keyframes bl{50%{opacity:0}}
+.pulse{animation:pu 1.2s steps(2) infinite}@keyframes pu{50%{stroke:#FF2BD6}}
+.hop{animation:hop .6s steps(2) infinite}@keyframes hop{50%{transform:translateX(6px)}}
+"""
+    b = []
+    b.append(f'<rect x="8" y="8" width="{W - 16}" height="{H - 16}" fill="#000"/>')
+    b.append(f'<rect x="0" y="0" width="{W - 16}" height="{H - 16}" fill="{BG2}"/>')
+    b.append(f'<rect class="pulse" x="3" y="3" width="{W - 22}" height="{H - 22}" fill="none" stroke="{CYAN}" stroke-width="6"/>')
+    arrow = ["#....", "##...", "###..", "####.", "#####", "####.", "###..", "##...", "#...."]
+    b.append(f'<g class="hop">{icon(arrow, 34, 17, 5, YELLOW)}</g>')
+    b.append(pixtext("PLAY DEPLOY RUN", 82, 23, 5, WHITE))
+    b.append(f'<rect class="blink" x="{82 + text_w("PLAY DEPLOY RUN", 5) + 12}" y="23" width="20" height="35" fill="{PINK}"/>')
+    write("play-button.svg", svg(W, H, "".join(b), style, "Play Deploy Run"))
+
+play_button()
+
 header()
 character()
 footer()
