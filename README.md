@@ -1,6 +1,8 @@
 <div align="center">
 
-<img width="100%" src="assets/header.svg" alt="Arcade title screen: MUBASHIR FAYYAZ, full-stack developer and cyber &amp; DevOps engineer. A pixel character runs across a neon synthwave landscape. Press start." />
+<a href="https://mubashir1255.github.io/mubashir1255/"><img width="100%" src="assets/header.svg" alt="Arcade title screen: MUBASHIR FAYYAZ, full-stack developer and cyber &amp; DevOps engineer. A pixel character runs across a neon synthwave landscape. Press start: click to play the game." /></a>
+
+<a href="https://mubashir1255.github.io/mubashir1255/"><img width="420" src="assets/play-button.svg" alt="Play Deploy Run, my pixel arcade game" /></a>
 
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=16&duration=2600&pause=900&color=FF2BD6&center=true&vCenter=true&width=760&height=50&lines=%3E+LOADING+PLAYER+1...;%3E+CLASS%3A+FULL-STACK+DEVELOPER;%3E+SUBCLASS%3A+CYBER+%26+DEVOPS+ENGINEER;%3E+MAIN+QUEST%3A+AGROBID+PAKISTAN;%3E+NEW+PARTY+MEMBERS+WELCOME!" alt="Loading player 1. Class: full-stack developer. Subclass: cyber and DevOps engineer. Main quest: AgroBid Pakistan." /></a>
 
@@ -128,6 +130,6 @@
 [![Portfolio](https://img.shields.io/badge/Portfolio-mubashir--fayyaz-00E5FF?style=for-the-badge&logo=vercel&logoColor=white)](https://mubashir-fayyaz.vercel.app)
 [![Gmail](https://img.shields.io/badge/Gmail-1255mubashir%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:1255mubashir@gmail.com)
 
-<img width="100%" src="assets/footer.svg" alt="Thanks for playing! Continue? Insert coin to collaborate." />
+<a href="https://mubashir1255.github.io/mubashir1255/"><img width="100%" src="assets/footer.svg" alt="Thanks for playing! Continue? Insert coin to collaborate." /></a>
 
 </div>
